@@ -56,8 +56,6 @@ Random List:
 
 https://www.researchgate.net/publication/352101647_Adversarial_Collaboration_The_Next_Science_Reform
 
-https://doi.org/10.1177/174569162090641
-
 https://doi.org/10.1111/1467-9280.00350
 
 https://doi.org/10.1007/978-3-031-04968-2_16
