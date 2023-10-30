@@ -1,15 +1,15 @@
 # Proposal for the basic structure of a simulation study
 
-### ******************Final Structure******************
+### Final Structure
 
-1. **Defining aims & objectives (including hypotheses)**
-2. **Simulation procedure /Design & Data-generation mechanism**
-3. **Methods selection (including software and estimands)**
-4. ************Model specification (optional, depending on context (e.g. cfa vs. t-test)************
-5. ************************Selection of performance measures************************
-6. ************************************Coding & execution************************************
-7. **********************************Analyzing results**********************************
-8. **************************Presentation/ Reporting**************************
+1. *Defining aims & objectives (including hypotheses)*
+2. *Simulation procedure /Design & Data-generation mechanism*
+3. *Methods selection (including software and estimands)*
+4. *Optional: Model specification*
+5. *Selection of performance measures*
+6. *Coding & execution*
+7. *Analyzing results*
+8. *Presentation/ Reporting*
 
 Basis: literature research which included Papers from psychology, medicine, statistics and engineering.
 
