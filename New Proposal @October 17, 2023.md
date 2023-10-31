@@ -45,7 +45,7 @@
     
     Betreuung & Kolloquium Ziegler?
     
-
+QRPs identified by Pawel et al. (2023)
 - **Design QRPs**:
     1. **D1**: Undefined goals leading to post hoc justification.
     2. **D2**: Vague data-generation process enabling manipulation.
@@ -87,3 +87,6 @@
     2. **Human Bias**: Non-malicious QRPs due to self-serving interpretations.
     3. **Call for Higher Standards**: Involve stakeholders for change.
     4. **Future Directions**: Preregistration as a step towards transparency, centralized platforms, and best-practice guidelines needed.
+
+Reference
+Pawel, S., Kook, L., Reeve, K., 2023. Pitfalls and potentials in simulation studies: Questionable research practices in comparative simulation studies allow for spurious claims of superiority of any method. Biometrical Journal 2200091.. https://doi.org/10.1002/bimj.202200091
