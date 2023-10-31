@@ -17,56 +17,46 @@ The overall set of steps of the simulation should be comprehensive and complete 
 Although the approach to enhancing generalizability through enforced inter-subjectivity is applicable to a wide range of computer-based simulation studies, the current project specifically targets the introduction of Adversarial Collaboration (AC) as a novel methodological paradigm within the realm of simulation studies for structural equation models. Therefore, the structure should align with the unique demands and complexities inherent to simulation of such models:
 
 - Harwell et al. (1996) proposed a general succession of steps of a simulation study applicable to simulations in psychometric research (Feinberg & Rubright, 2016). Note steps 4 - 7 are all performed by the core function of a simulation study.
-    1. specifying a research question 
-    2. delineating conditions 
-    3. choosing an experimental design 
-    4. generating data 
-    5. estimating parameters (directly results from 2 and 3.)
-    6. comparing true and estimated parameters (directly results from 2 and 3.)
-    7. replicating the procedure a specified number of times and 
-    8. analyzing results using an appropriate method based on the design. 
+1. specifying a research question 
+2. delineating conditions 
+3. choosing an experimental design 
+4. generating data 
+5. estimating parameters (directly results from 2 and 3.)
+6. comparing true and estimated parameters (directly results from 2 and 3.)
+7. replicating the procedure a specified number of times and 
+8. analyzing results using an appropriate method based on the design. 
     
-    Note. Steps 4 - 7 are all performed by the core function of a simulation study and 5 and 6 are direct results from precious steps and thus not fulfilling the modularity criterion for AC. 
+Note. Steps 4 - 7 are all performed by the core function of a simulation study and 5 and 6 are direct results from precious steps and thus not fulfilling the modularity criterion for AC. 
     
 - This structure can be adapted and augmented by explicitizing additional, critical steps that are particularly pertinent to and well-suited for a SEM context (Paxton et al., 2001):
-    1. developing a theoretically derived research question of interest (= verbal description)
-        
-        - e.g. examination of goodness-of-fit statistics under varying degrees of misspecification
-        - comparison of the maximum likelihood (ML) to (2SLS)
-        
-    2. creating a valid model
-        
-        Modularities:
-        - Structure: (e.g. CFA or SEM)
-        - Size: number of latents and indicators
-        - Complexity: (cross-loaded indicators, Reciprocal paths, Exogenous predictors)
-        → select target model for (assumed) *general* model types
-        
-    3. designing specific experimental conditions (partly derived from 1)
-    Common (general) modularities:
+1. developing a theoretically derived research question of interest (= verbal description)
+    - e.g. examination of goodness-of-fit statistics under varying degrees of misspecification
+    - comparison of the maximum likelihood (ML) to (2SLS)
+2. creating a valid model
+    Modularities:
+    - Structure: (e.g. CFA or SEM)
+    - Size: number of latents and indicators
+    - Complexity: (cross-loaded indicators, Reciprocal paths, Exogenous predictors)
+    → select target model for (assumed) *general* model types
+3. designing specific experimental conditions (partly derived from 1) Common (general) modularities:
     - almost universally: sample size
     - distribution of the observed variables
     - estimation method
     - extent of misspecification (and to omit or include misspecification paths)
-    4. choosing values of population
-        
+4. choosing values of population        
         Modularities:
         - should reflect values commonly encounterd in applied research.
-        
-    5. choosing an appropriate software package (optional, could be standardized for enhanced evaluation)
-    6. executing the simulations
-        
-        Modularities:
-        - inclusion / exclusion of “imperfect” samples (non converged / improper solutions)
-        
-    7. file storage (to be standardized, just kept here for completionism)
-    8. troubleshooting and verification (to be standardized, just kept here for completionism)
-    9. summarizing results
-        
-        Modularities:
-        - descriptive
-        - graphical
-        - inferential
+5. choosing an appropriate software package (optional, could be standardized for enhanced evaluation)
+6. executing the simulations
+   Modularities:
+   - inclusion / exclusion of “imperfect” samples (non converged / improper solutions)
+7. file storage (to be standardized, just kept here for completionism)
+8. troubleshooting and verification (to be standardized, just kept here for completionism)
+9. summarizing results
+   Modularities:
+   - descriptive
+   - graphical
+   - inferential
         
 
 Here steps 1, 3, 6 and 9 correspond to Harwell et al. (1996). 2 and 4 are especially relevant for an SEM context and should thus be included explicitly. Note the step “file storage” was excluded here and should be (pre-)standardized across collaborators to enhance post-hoc evaluation. Note critically step 6 involves the decision of inclusion or exclusion of “imperfect” samples (non converged / improper solutions).
