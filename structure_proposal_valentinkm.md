@@ -28,7 +28,7 @@ Although the approach to enhancing generalizability through enforced inter-subje
     
 Note. Steps 4 - 7 are all performed by the core function of a simulation study and 5 and 6 are direct results from precious steps and thus not fulfilling the modularity criterion for AC. 
     
-- This structure can be adapted and augmented by explicitizing additional, critical steps that are particularly pertinent to and well-suited for a SEM context (Paxton et al., 2001):
+This structure can be adapted and augmented by explicitizing additional, critical steps that are particularly pertinent to and well-suited for a SEM context (Paxton et al., 2001):
 1. developing a theoretically derived research question of interest (= verbal description)
     - e.g. examination of goodness-of-fit statistics under varying degrees of misspecification
     - comparison of the maximum likelihood (ML) to (2SLS)
