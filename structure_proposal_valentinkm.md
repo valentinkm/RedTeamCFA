@@ -16,7 +16,7 @@ The overall set of steps of the simulation should be comprehensive and complete 
 
 Although the approach to enhancing generalizability through enforced inter-subjectivity is applicable to a wide range of computer-based simulation studies, the current project specifically targets the introduction of Adversarial Collaboration (AC) as a novel methodological paradigm within the realm of simulation studies for structural equation models. Therefore, the structure should align with the unique demands and complexities inherent to simulation of such models:
 
-- Harwell et al. (1996) proposed a general succession of steps of a simulation study applicable to simulations in psychometric research (Feinberg & Rubright, 2016). Note steps 4 - 7 are all performed by the core function of a simulation study.
+Harwell et al. (1996) proposed a general succession of steps of a simulation study applicable to simulations in psychometric research (Feinberg & Rubright, 2016). Note steps 4 - 7 are all performed by the core function of a simulation study.
 1. specifying a research question 
 2. delineating conditions 
 3. choosing an experimental design 
