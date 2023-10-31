@@ -4,10 +4,12 @@
 
 1. *Defining aims & objectives (including hypotheses)*
 2. *Simulation procedure /Design & Data-generation mechanism*
+    Done in semi-standardized pseudo code syntax
 3. *Methods selection (including software and estimands)*
 4. *Optional: Model specification*
 5. *Selection of performance measures*
 6. *Coding & execution*
+    in case of non-convergence, starting state for that repetition should be noted and repetition re-run to investigate and tackle non-convergence
 7. *Analyzing results*
 8. *Presentation/ Reporting*
 
@@ -24,7 +26,7 @@ Besides these suggestions, other papers proposed sensible structures but for dif
 
 In consequence, my selected structure mainly corresponds to the proposed structure of Morris et al. (2019), with some exceptions. For reasons of parsimony, I merged their steps  “Estimand/ target of analysis” and “Methods” as this distinction was unique in comparison to other papers, and did not appear to contain additional information that would be lost in a common category (Burton et al., 2006; Harwell et al., 1996). Additionally, I added an optional step for model specification, as this section was part of some paper, as well as exemplary simulation studies (Smith & Marshall, 2010; Paxton et al., 2001; Beauducel & Wittmann, 2005). This step can be ommitted, depending on whether model specification is relevant to a planned simulation study or not.
 
-For the labels of the structure, I oriented on all the papers mentioned to increase compatibility. Still, in terms of details of the steps, the structure corresponds to the paper of Morris and colleagues (2019).
+For the labels of the structure, I oriented on all the papers mentioned to increase compatibility. Still, in terms of details of the steps, the structure corresponds to the paper of Morris and colleagues (2019), which is summarized in Table 1 of their paper.
 
 ### Bibliography
 
