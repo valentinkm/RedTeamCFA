@@ -1,17 +1,10 @@
 # Merged Structure of a Simulation Study
 
-: DTG-6
-Comments: Merge individual proposals for basic structure of simulation study
-Date: 31/10/2023
-Final Goal: Justifying chosen structure for simulation
-Person: Valentin, Leo Kosanke
-Status: Done
-
-# Goal
+### Goal
 
 The overall goal of this project is to develop and test an (adversarial) collaborative approach for conducting simulation studies (in the context of psychological methods). This aims to highlight subjectivity-prone decision-making elements and increase their generalizability. Thus, we propose a basic and general structure of simulation studies that serves as a foundational framework within which collaborative processes can take place. Hence, this structure should be (1) sufficiently modular, to allow for independent evaluation and modification of critical decision-making processes by collaborators, (2) maximally precise and clear to enable structured evaluation of the collaborative process and (3) comprehensive and complete to ensure scientifically rigorous execution and reporting. In general we aim to ensure compatible with other proposed structures.
 
-# Structure
+### Structure
 
 1. Defining aims and objectives / Research Question of Interest. ( = verbal description)
     - as specific as possible
@@ -77,7 +70,7 @@ Before Coding and Execution: Anticipating all critical decision processes (e.g. 
     - provide rationales for each choice made in the previous steps
     - publishing code and simulated data
 
-# Background
+### Background
 
 Firstly, it is important to consider that the single steps of the above structure are not meant to be equally comprehensive or relevant but are rather a sequence of decisions to be taken chronologically.
 
@@ -85,6 +78,6 @@ Our structure is mainly oriented on the structure proposed by Paxton et al. (200
 
 As mentioned before, part of our goal was to ensure compatibility with other proposed structures  In this sense, although differing in the details on an abstract level, our proposed structure is compatible with structures proposed across a range of research contexts of simulations studies (e.g. Burton et al., 2006; Harwell et al., 1996, Shannon, 1992).
 
-# Conclusion
+### Conclusion
 
 In sum the proposed structure constitutes a comprehensive, precise and modular set of decision making elements as a foundational framework for collaboratively conducting a simulation study. However it is detached from a specific research topic and might be adapted to its specific intricacies. The same is true for when we decide on a refined collaboration procedure.
