@@ -1,15 +1,19 @@
 ```julia
 using DataFrames, HypothesisTests, StatsBase, Statistics, Distributions
 ```
-# 1) Aims and Objectives
+The following is a small exemplary Monte Carlo simulation to apply the structural framework, see [here](https://github.com/valentinkm/RedTeamCFA/blob/main/Merged%20Structure%20of%20a%20Simulation%20Study.md#structure) for more details.
+
+This contains just the very basic steps and serves as an internal surface-level example for developing a colaborative workflow for simulation studies.
+
+# 1. Aims and Objectives
 The aim is to compare the power of the t-test and the Wilcoxon test for skewed data.
 
 
-# 2) Specification of Population Model
+# 2. Specification of Population Model
 is optional and not used here (or applied implicitly by the nature of the the methods comparing two groups)
 
 
-# 3) Experimental Design and Simulation Procedures (includes 6) Defining Estimands)
+# 3. Experimental Design and Simulation Procedures (includes 6. Defining Estimands)
 ```julia
 # Define ranges for sample sizes and skewness levels
 sample_sizes = [50, 100, 200, 500]
@@ -28,7 +32,7 @@ effect_size = 0.6
 iterations = 1000
 ```
 
-# 4) Datageneration Mechanism
+# 4. Datageneration Mechanism
 ```julia
 # -- simulate skewed data --
 function simulate_data_skew(n, skewness_level, effect_size)
@@ -39,7 +43,7 @@ function simulate_data_skew(n, skewness_level, effect_size)
 end
 ```
 
-# 5) Method Selection
+# 5. Method Selection
 Methods: t-test and Wilcoxon test (implicitly given by the research question)
 ```julia
 # Function to perform t-test
@@ -57,13 +61,13 @@ function perform_wilcox_test(group1, group2)
 end
 ```
 
-# 7) Perfomance Measures
+# 7. Perfomance Measures
 Power of the tests calculated as the proportion of significant results (p < 0.05) in the simulation
 
-# 8) Software Selection
+# 8. Software Selection
 Upfront and the packages are loaded in the first cell
 
-# 9) Coding & Execution
+# 9. Coding & Execution
 ```julia
 function simulation_study_skew(n, effect_size, iterations, skewness_level)
     power_count_ttest = 0
@@ -101,10 +105,9 @@ for (i, n) in enumerate(sample_sizes)
 end
 ```
 
-# 10) Analysing the Results
+# 10. Analysing the Results
 ```julia
-# Display the results
 show(results_df, allrows=true)
 ```
 
-# 11) Reporting
+# 10. Reporting
