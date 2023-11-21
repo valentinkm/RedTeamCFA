@@ -56,17 +56,17 @@ The overall goal of this project is to develop and test an (adversarial) collabo
 
 Before Coding and Execution: Anticipating all critical decision processes (e.g. exclusion criteria for “imperfect” samples)
 
-1. Coding and Execution 
+9. Coding and Execution 
     - Amount and content of scripts
     - include (sanity) checks
     - setting seeds
     - troubleshooting & verification
-2. Analyzing results
+10. Analyzing results
     - descriptive
     - graphical
     - inferential
     - exploration
-3. Reporting & Presentation
+11. Reporting & Presentation
     - provide rationales for each choice made in the previous steps
     - publishing code and simulated data
 
