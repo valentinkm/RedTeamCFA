@@ -1,4 +1,4 @@
-# Proposal for Collaboration within our simulation structure
+## Proposal for Collaboration within our simulation structure
 
 There exists substantial flexibility in the conduction of adversarial collaboration (AC) (Mellers et al., 2001;  Cowan, 2020; Melloni et al., 2021). The below presented approach tries to incorporate suggestions from the literature, while also introducing deviances due to our use case.
 
@@ -6,7 +6,7 @@ There exists substantial flexibility in the conduction of adversarial collaborat
 
 In order to have a starting point of different perspectives, as well as to be able to investigate whether AC shows incremental improvements over preregistration, a preliminary simulation study should be pursued by both researchers on their own.
 
-Procedure
+<ins>Procedure
 
 1. 2 seperate preregistrations = simulation protocol Morris et al. (2019)
     
@@ -15,9 +15,11 @@ Procedure
 
 *Open question*: Should we Red Team on our opposites preregistration? Would mitigate Bias and would differ from AC, as one would not have to follow critique if it feels unwarrented
 
-1. 2 seperate implementations and interpretations
+2. 2 seperate implementations and interpretations
 
-**************************************************Second round: joint study**************************************************
+<br/>
+
+**Second round: joint study**
 
 Starting point: Results of first round. Either: 
 
@@ -27,7 +29,7 @@ Starting point: Results of first round. Either:
 
 In any case: clear divide in opinions, ideal grounds for adversary!
 
-Along the way:
+<ins>Along the way:
 
 Constant diary entry after each following part, judging the collaboration quality in a guided fashion, oriented on the diary by Shah & Leeder (2016).
 
@@ -35,7 +37,9 @@ Module: “Propose, Critique & Merge”: Oriented on a guideline including techn
 
 In emergencies as in fundamentally unresolvable disagreements, a third neutral arbiter (Aaron Peikert) should be consulted to try to resolve them.
 
-First part: Joint preregistration: Steps 1-8
+<br/>
+
+<ins>First part: Joint preregistration: Steps 1-8
 
 Agree on a joint preregistration (including when which hyp. are accepted/ rejected, what are valid interpretations, which exact methods are to be chosen) (Mellers et al., 2001; Clark & Tetlock, 2021; Cowan et al., 2020)
 
@@ -47,7 +51,9 @@ Verbal description of Simulation = simulation protocol Morris et al. (2019), as 
 
 Should be as detailed and comprehensive as possible. Agreed upon steps as well as disagreements should be documented and resolved utilizing Github extensively.
 
-Second part: Coding & execution: Step 9
+<br/>
+
+<ins>Second part: Coding & execution: Step 9
 
 Individual proposals (code scripts)
 
@@ -59,7 +65,9 @@ In the end, all results should be present as defined in preregistration.
 
 Any changes from the preregistration should be argued and agreed upon, ideally on an empirical basis.
 
-Third part: Interpreting results, Discussion & implications: Step 10
+<br/>
+
+<ins>Third part: Interpreting results, Discussion & implications: Step 10
 
 Individual proposals
 
@@ -69,7 +77,9 @@ Map disagreements
 
 Ideally, a joint Third part is generated. Alternatively, There have to be seperate interpretations and/ or discussion & implication parts.
 
-Fourth part: Reflecting on the AC
+<br/>
+
+<ins>Fourth part: Reflecting on the AC
 
 Individual proposals, based on the diaries
 
@@ -79,9 +89,13 @@ Map disagreements
 
 After the substantial part of the study is over, a joint reflection of the AC should be pursued. Again, if disagreements persist, they should be mapped.
 
-Fifth part: Reporting & presentation: Step 11
+<br/>
+
+<ins>Fifth part: Reporting & presentation: Step 11
 
 Each side reports on their own thesis.
+
+<br/>
 
 ### Bibliography
 
