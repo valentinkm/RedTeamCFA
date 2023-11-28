@@ -4,7 +4,7 @@ There exists substantial flexibility in the conduction of adversarial collaborat
 
 **First round: seperate studies:**
 
-In order to have a starting point of different perspectives, as well as to be able to investigate whether AC shows incremental improvements over preregistration, a preliminary simulation study should be pursued by both researchers on their own.
+In order to have a plausible starting point of different perspectives, a preliminary simulation study should be pursued by both researchers on their own.
 
 <ins>Procedure
 
@@ -12,8 +12,6 @@ In order to have a starting point of different perspectives, as well as to be ab
     
     —> remaining RDoF/QRPs in operationalization, hypothesis generation, method selection and interpretation
     
-
-*Open question*: Should we Red Team on our opposites preregistration? Would mitigate Bias and would differ from AC, as one would not have to follow critique if it feels unwarrented
 
 2. 2 seperate implementations and interpretations
 
@@ -31,7 +29,9 @@ In any case: clear divide in opinions, ideal grounds for adversary!
 
 <ins>Along the way:
 
-Constant diary entry after each following part, judging the collaboration quality in a guided fashion, oriented on the diary by Shah & Leeder (2016).
+Constant diary entry after each following part, judging the collaboration quality in a guided fashion, oriented on the diary by Shah & Leeder (2016). This has two purposes:
+1. accumulating evidence for the evaluation of the AC and the framework we propose.
+2. ideas for improvement of that framework.
 
 Module: “Propose, Critique & Merge”: Oriented on a guideline including techniques such as in Kardos & Dexter (2017): Key assumption check, What if & counter arguments, Quality of information.
 
