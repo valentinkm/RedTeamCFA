@@ -53,20 +53,23 @@ The overall goal of this project is to develop and test an (adversarial) collabo
 8. Software Selection
     - to run simulation
     - packages & functions
+9. Analysis and Interpretation plan
+    - Analysis: descriptive vs. inferential
+    - Interpretation: decision criteria that evaluate performance : e.g. if 1-ß > 90, the method performs well
 
 Before Coding and Execution: Anticipating all critical decision processes (e.g. exclusion criteria for “imperfect” samples)
 
-9. Coding and Execution 
+10. Coding and Execution 
     - Amount and content of scripts
     - include (sanity) checks
     - setting seeds
     - troubleshooting & verification
-10. Analyzing results
+11. Analyzing results
     - descriptive
     - graphical
     - inferential
     - exploration
-11. Reporting & Presentation
+12. Reporting & Presentation
     - provide rationales for each choice made in the previous steps
     - publishing code and simulated data
 
