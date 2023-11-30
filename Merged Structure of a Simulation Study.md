@@ -1,4 +1,4 @@
- .# Merged Structure of a Simulation Study
+# Merged Structure of a Simulation Study
 
 ### Goal
 
