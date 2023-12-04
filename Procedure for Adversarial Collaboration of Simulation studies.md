@@ -116,7 +116,8 @@ Based on shared simulation protocols 9th step: Analysis and Interpretation plan
     
     
 12. **Reporting & Presentation**
-<u>- Step 1: Individual Simulation Studies: </u>
+
+- Step 1: Individual Simulation Studies:
 A broad outline of the report and presentation is presented by each collaborator
 - Step 2: Merged Simulation Study:
 Each side reports on their own
