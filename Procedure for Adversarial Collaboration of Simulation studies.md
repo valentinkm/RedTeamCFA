@@ -1,19 +1,10 @@
 # Procedure for Adversarial Collaboration of Simulation studies
 
-: DTG-26
-Date: 30/11/2023
-Person: Leo Kosanke, Valentin
-Status: In progress
-
-Content:
-
 # Goal
 
 The following is a proposal for the general procedure and design for conducting adversarial collaboration of a simulation study that aims to evaluate two competing methods. 
 
-It is based on the steps proposed in our [structure of simulation studies]([https://github.com/valentinkm/RedTeamCFA/blob/main/Merged Structure of a Simulation Study.md](https://github.com/valentinkm/RedTeamCFA/blob/main/Merged%20Structure%20of%20a%20Simulation%20Study.md)).
-
-The goal is a framework that allows structured and streamlined collaboration between two or more researchers. It is aimed at increasing generalizability, reducing ambiguity and resolving or clarifying the core aspects of any disagreements. Here we outline the general intended procedure, identify suitable adversarial collaboration techniques and elaborate on documentation as well as evaluation of the collaborative process. Finally, based on the steps proposed in our [structure of simulation studies]([https://github.com/valentinkm/RedTeamCFA/blob/main/Merged Structure of a Simulation Study.md](https://github.com/valentinkm/RedTeamCFA/blob/main/Merged%20Structure%20of%20a%20Simulation%20Study.md)), we provide a more fine-grained and stepwise description of the procedure.
+The goal is a framework that allows structured and streamlined collaboration between two or more researchers. It is aimed at increasing generalizability, reducing ambiguity and resolving or clarifying the core aspects of any disagreements. Here we outline the general intended procedure, identify suitable adversarial collaboration techniques and elaborate on documentation as well as evaluation of the collaborative process. Finally, based on the steps proposed in our [structure of simulation studies](https://github.com/valentinkm/RedTeamCFA/blob/main/Merged%20Structure%20of%20a%20Simulation%20Study.md), we provide a more fine-grained and stepwise description of the procedure.
 
 # Outline
 
@@ -36,7 +27,7 @@ In general, the procedure consists of two parts:
 
 ## Adversarial Collaboration (AC) Techniques:
 
-At each round of collaboration, any of these techniques can be used, depending on their applicability.
+At each round of collaboration, any of the following techniques can be used, depending on their applicability:
 
 - Core Disagreements: Arrive at clearly defined core disagreements in the research question or objectives that might be the origin for conflicts in successive steps. (Clark et al., 2022)
 - Assumption check: List, question, and categorize assumptions (Kardos & Dexter, 2017)
@@ -46,15 +37,16 @@ At each round of collaboration, any of these techniques can be used, depending o
 
 ## Documentation
 
-The report of the *Joint Study* (Section 2) will be presented in the main paper in a concise way focussing on the most crucial decisions. 
+The report of the *Joint Study* will be presented in the main paper in a concise way focussing on the most crucial decisions. 
 
 In addition, a separate decision log will serve as a detailed and complete documentation of all decisions made. Here, we summarize the AC-techniques used, as well as their consequence for the decision-making process.
 
-In our mind, decision making can be based on 3 distinct grounds: 
+In our mind, decision making can be based on 4 distinct grounds: 
 
 - Evidence
 - Pragmatic reasons
 - Arbitrary reasons
+- Other reasons (e.g. personal values, political issues)
 
 In some cases, more than one of these are present. In such cases, we want to rank their relevance to a decision, if possible.
 
@@ -64,7 +56,7 @@ Example:
 
 ## Evaluation
 
-The adversarial collaboration in Section 2 (Joint study), is documented and evaluated from each collaborators perspective using  semi-structured diary entries based on Shah & Leeder (2016), after each step. This has two purposes:
+The adversarial collaboration in Part 2 (Joint study), is documented and evaluated from each collaborators perspective using semi-structured diary entries based on Shah & Leeder (2016), after each step. This has two purposes:
 
 1. accumulating evidence for the evaluation of the AC and the framework we propose.
 2. ideas for improving that framework.
@@ -88,7 +80,7 @@ The adversarial collaboration in Section 2 (Joint study), is documented and eval
     
     *Contained in shared simulation protocol*
     
-1. **Specification of Population Model - 9. Analysis and Interpretation plan**
+2. **Specification of Population Model - 9. Analysis and Interpretation plan**
 - Step 1: Individual Simulation Studies:
 Chosen independently by each collaborator
     
@@ -101,7 +93,7 @@ Result of the adversarial process
     
     *Contained in shared simulation protocol*
     
-1. **Coding and Execution**
+10. **Coding and Execution**
 - Step 1: Individual Simulation Studies:
 Conducted independently by each collaborator
     
@@ -114,7 +106,7 @@ One script as result of the adversarial process
     
     Using AC techniques
     
-1. **Analyzing results**
+11. **Analyzing results**
 - Step 1: Individual Simulation Studies:
     
     Based on individual simulation protocols 9th step: Analysis and Interpretation plan
@@ -123,8 +115,8 @@ One script as result of the adversarial process
 Based on shared simulation protocols 9th step: Analysis and Interpretation plan
     
     
-1. **Reporting & Presentation**
-- Step 1: Individual Simulation Studies:
+12. **Reporting & Presentation**
+<u>- Step 1: Individual Simulation Studies: </u>
 A broad outline of the report and presentation is presented by each collaborator
 - Step 2: Merged Simulation Study:
 Each side reports on their own
